@@ -8,6 +8,7 @@
 - [About](#about)
 - [Paper](#paper)
 - [Demo](#demo)
+- [Dependency](#dependency) 
 - [Usage](#usage)
 
 ## About
@@ -41,6 +42,16 @@ TerraVector-Clust provides the dengrogram, the map view with given number of clu
   <img src="Figs/Mapview_Taiwan_K11.png" alt="Map view of the Taiwan resulting clusters with K=11" width="400" />
   <img src="Figs/Influentialobservations_Taiwan_entropy.png" alt="Influential observations of the Taiwan resulting clusters with K=14" width="350" />
 </div>
+
+## Dependency
+Python codes
+The following is requirements:
+- numpy　
+- pandas 
+- pygmt
+- scipy
+- scikit-learn
+- umap (optional)
 
 ## Usage
 The ipynb file demo_TerraVectorClust_v1.ipynb includes how to use our method.
