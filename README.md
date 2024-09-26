@@ -8,13 +8,7 @@
 - [About](#about)
 - [Paper](#paper)
 - [Demo](#demo)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## About
 TerraVector-Clust is a hierarchical clustering methodology for clustering data from a global navigation satellite system (GNSS) that is applicable at local to global scales. 
@@ -34,18 +28,29 @@ examination of the robustness of clusters with synthetic noise contamination and
 - Journal: in revision
 
 ## Demo
-Include a demo or screenshots of the project.  
-You can use `![Demo Image](URL)` to insert images or GIFs that showcase the project's appearance.
+TerraVector-Clust provides the dengrogram, the map view with given number of clusters, leave-one-out stability checks.
 
-## Installation
-Provide instructions on how to install the project.
+- Example: Application to the global-scale dataset (ITRF2008) provided by Altamimi et al. (2013)
+<img src="Figs/HAC_ITRF2008.png" alt="Dendrogram of ITRF2008" width="700" />
+<img src="Figs/Mapview_ITRF2008_K14.png" alt="Map view of the ITRF2008 resulting clusters with K=14" width="700" />
+<img src="Figs/Influentialobservations_ITRF2008_entropy.png" alt="Influential observations of the ITRF2008 resulting clusters with K=14" width="700" />
 
-```bash
-# Clone the repository
-git clone https://github.com/username/repository.git
+- Example: Application to the local-scale dataset (Taiwan) provided by Tsai et al. (2015)
+<img src="Figs/HAC_Taiwan.png" alt="Dendrogram of Taiwan" width="700" />
+<div style="display: flex; gap: 10px;">
+  <img src="Figs/Mapview_Taiwan_K11.png" alt="Map view of the Taiwan resulting clusters with K=11" width="400" />
+  <img src="Figs/Influentialobservations_Taiwan_entropy.png" alt="Influential observations of the Taiwan resulting clusters with K=14" width="350" />
+</div>
 
-# Navigate to the project directory
-cd repository
+## Usage
+The ipynb file demo_TerraVectorClust_v1.ipynb includes how to use our method.
+The dataset folder include datasets used in our study. The following is a list of references:
+- Altamimi, Z., Métivier, L., & Collilieux, X. (2012). ITRF2008 plate motion model. Journal of Geophysical Research: Solid Earth, 117 (B7).
+- Altamimi, Z., Métivier, L., Rebischung, P., Collilieux, X., Chanard, K., & Barnéoud, J. (2023). Itrf2020 plate motion model. Geophysical Research Letters, 50 (24), e2023GL106373.
+- Bird, P. (2003), An updated digital model of plate boundaries, Geochemistry Geophysics Geosystems, 4(3), 1027.
+- https://github.com/fraxen/tectonicplates
+- Takahashi, A., Hashimoto, M., Hu, J.-C., Takeuchi, K., Tsai, M.-C., & Fukahata, Y. (2019). Hierarchical cluster analysis of dense GPS data and examination of the nature of the clusters associated with regional tectonics in Taiwan. Journal of Geophysical Research: Solid Earth, 124 (5), 5174–5191.
+- Tsai, M.-C., Yu, S.-B., Shin, T.-C., Kuo, K.-W., Leu, P.-L., Chang, C.-H., & Ho, M.-Y. (2015). Velocity field derived from Taiwan continuous GPS array (2007–2013). Terrestrial, Atmospheric & Oceanic Sciences, 26 (5).
 
-# Install the necessary packages
-npm install
+## Responsibility
+This paper is written by Keisuke Yano and checked by Astushi Takahashi and Masayuki Kano.
