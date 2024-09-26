@@ -63,6 +63,7 @@ The dataset folder include datasets used in our study. The following is a list o
 - https://github.com/fraxen/tectonicplates
 - Takahashi, A., Hashimoto, M., Hu, J.-C., Takeuchi, K., Tsai, M.-C., & Fukahata, Y. (2019). Hierarchical cluster analysis of dense GPS data and examination of the nature of the clusters associated with regional tectonics in Taiwan. Journal of Geophysical Research: Solid Earth, 124 (5), 5174–5191.
 - Tsai, M.-C., Yu, S.-B., Shin, T.-C., Kuo, K.-W., Leu, P.-L., Chang, C.-H., & Ho, M.-Y. (2015). Velocity field derived from Taiwan continuous GPS array (2007–2013). Terrestrial, Atmospheric & Oceanic Sciences, 26 (5).
+- Lin,C.-W., Lu,S., & Chen,W.-S. (2012). Active fault map of Taiwan. Special publication of the Central Geological Survey.
 
 ## Responsibility
 This paper is written by Keisuke Yano and checked by Astushi Takahashi and Masayuki Kano.
