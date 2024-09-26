@@ -44,8 +44,9 @@ TerraVector-Clust provides the dengrogram, the map view with given number of clu
 </div>
 
 ## Dependency
-Python codes
-The following is requirements:
+We provide the python implementation. 
+
+The program requires the following packages:
 - numpy　
 - pandas 
 - pygmt
