@@ -55,7 +55,7 @@ The program requires the following packages:
 - umap (optional)
 
 ## Usage
-The ipynb file demo_TerraVectorClust_v1.ipynb includes how to use our method.
+The ipynb file demo_TerraVectorClust_v2.ipynb includes how to use our method.
 The dataset folder include datasets used in our study. The following is a list of references:
 - Altamimi, Z., Métivier, L., & Collilieux, X. (2012). ITRF2008 plate motion model. Journal of Geophysical Research: Solid Earth, 117 (B7).
 - Altamimi, Z., Métivier, L., Rebischung, P., Collilieux, X., Chanard, K., & Barnéoud, J. (2023). Itrf2020 plate motion model. Geophysical Research Letters, 50 (24), e2023GL106373.
