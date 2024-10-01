@@ -37,10 +37,10 @@ TerraVector-Clust provides the dengrogram, the map view with given number of clu
 <img src="Figs/Influentialobservations_ITRF2008_entropy.png" alt="Influential observations of the ITRF2008 resulting clusters with K=14" width="700" />
 
 - Example: Application to the local-scale dataset (Taiwan) provided by Tsai et al. (2015)
-<img src="Figs/HAC_Taiwan.png" alt="Dendrogram of Taiwan" width="700" />
+<img src="Figs/HAC_Taiwan_v2.png" alt="Dendrogram of Taiwan" width="700" />
 <div style="display: flex; gap: 10px;">
-  <img src="Figs/Mapview_Taiwan_K11.png" alt="Map view of the Taiwan resulting clusters with K=11" width="400" />
-  <img src="Figs/Influentialobservations_Taiwan_entropy.png" alt="Influential observations of the Taiwan resulting clusters with K=14" width="350" />
+  <img src="Figs/Mapview_Taiwan_K11_v2.png" alt="Map view of the Taiwan resulting clusters with K=11" width="400" />
+  <img src="Figs/Influentialobservations_Taiwan_entropy_v2.png" alt="Influential observations of the Taiwan resulting clusters with K=14" width="350" />
 </div>
 
 ## Dependency
