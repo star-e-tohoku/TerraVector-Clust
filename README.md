@@ -37,10 +37,10 @@ TerraVector-Clust provides the dengrogram, the map view with given number of clu
 <img src="Figs/Influentialobservations_ITRF2008_entropy.png" alt="Influential observations of the ITRF2008 resulting clusters with K=14" width="700" />
 
 - Example: Application to the local-scale dataset (Taiwan) provided by Tsai et al. (2015)
-<img src="Figs/HAC_Taiwan_v2.png" alt="Dendrogram of Taiwan" width="700" />
+<img src="Figs/HAC_Taiwan_v3.png" alt="Dendrogram of Taiwan" width="700" />
 <div style="display: flex; gap: 10px;">
-  <img src="Figs/Mapview_Taiwan_K11_v2.png" alt="Map view of the Taiwan resulting clusters with K=11" width="400" />
-  <img src="Figs/Influentialobservations_Taiwan_entropy_v2.png" alt="Influential observations of the Taiwan resulting clusters with K=14" width="350" />
+  <img src="Figs/Mapview_Taiwan_K11_v3.png" alt="Map view of the Taiwan resulting clusters with K=11" width="400" />
+  <img src="Figs/Influentialobservations_Taiwan_entropy_v3.png" alt="Influential observations of the Taiwan resulting clusters with K=14" width="350" />
 </div>
 
 ## Dependency
@@ -55,7 +55,7 @@ The program requires the following packages:
 - umap (optional)
 
 ## Usage
-The ipynb file demo_TerraVectorClust_v2.ipynb includes how to use our method.
+The ipynb file demo_TerraVectorClust_v3.ipynb includes how to use our method.
 The dataset folder include datasets used in our study. The following is a list of references:
 - Altamimi, Z., Métivier, L., & Collilieux, X. (2012). ITRF2008 plate motion model. Journal of Geophysical Research: Solid Earth, 117 (B7).
 - Altamimi, Z., Métivier, L., Rebischung, P., Collilieux, X., Chanard, K., & Barnéoud, J. (2023). Itrf2020 plate motion model. Geophysical Research Letters, 50 (24), e2023GL106373.
